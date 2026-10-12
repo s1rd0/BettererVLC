@@ -1,0 +1,200 @@
+[
+  {
+    "name": "title-logo",
+    "id": "247:450",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "menu",
+    "id": "247:454",
+    "width": 28,
+    "height": 28
+  },
+  {
+    "name": "sidebar",
+    "id": "247:456",
+    "width": 28,
+    "height": 28
+  },
+  {
+    "name": "folder",
+    "id": "247:461",
+    "width": 28,
+    "height": 28
+  },
+  {
+    "name": "minimize",
+    "id": "247:466",
+    "width": 36,
+    "height": 24
+  },
+  {
+    "name": "maximize",
+    "id": "247:467",
+    "width": 36,
+    "height": 24
+  },
+  {
+    "name": "fullscreen",
+    "id": "247:468",
+    "width": 36,
+    "height": 24
+  },
+  {
+    "name": "close",
+    "id": "247:469",
+    "width": 36,
+    "height": 24
+  },
+  {
+    "name": "prev",
+    "id": "45:18",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "next",
+    "id": "45:12",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "play",
+    "id": "848:1711",
+    "width": 54,
+    "height": 28
+  },
+  {
+    "name": "pause",
+    "id": "848:1713",
+    "width": 54,
+    "height": 28
+  },
+  {
+    "name": "stop",
+    "id": "187:322",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "mute",
+    "id": "182:198",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "unmute",
+    "id": "182:179",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "audio",
+    "id": "44:407",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "subtitles",
+    "id": "42:398",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "settings",
+    "id": "2230:9222",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "playlist",
+    "id": "217:191",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "home",
+    "id": "70:828",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "video",
+    "id": "51:808",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "library",
+    "id": "71:857",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "stream",
+    "id": "70:833",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "lists",
+    "id": "217:191",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "recent",
+    "id": "2154:9699",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "add",
+    "id": "463:550",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "shuffle",
+    "id": "187:474",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "repeat",
+    "id": "187:470",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "load",
+    "id": "330:267",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "save",
+    "id": "71:884",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "delete",
+    "id": "463:560",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "name": "volume0",
+    "id": "244:185",
+    "width": 88,
+    "height": 28
+  },
+  {
+    "name": "volume10",
+    "id": "244:190",
+    "width": 88,
+    "height": 28
+  }
+]

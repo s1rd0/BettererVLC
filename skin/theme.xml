@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0" magnet="15">
+  <ThemeInfo name="VLC Redesign" author="Juxtopposed; VLC Skins2 adaptation" webpage="https://www.figma.com/community/file/1691465999134370980/vlc-redesign"></ThemeInfo>
+  <Font id="ui12" file="assets/Inter-Regular.ttf" size="12"></Font>
+  <Font id="ui14" file="assets/Inter-Regular.ttf" size="14"></Font>
+  <Font id="ui15" file="assets/Inter-Regular.ttf" size="15"></Font>
+  <Font id="ui20" file="assets/Inter-Regular.ttf" size="20"></Font>
+  <Bitmap id="bg" file="assets/bg.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="field" file="assets/field.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="topbar" file="assets/topbar.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="sidebar-bg" file="assets/sidebar-bg.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="rail-bg" file="assets/rail-bg.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="idle-logo" file="assets/idle-logo.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="title-logo" file="assets/title-logo.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="seek" file="assets/seek.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="seek-track" file="assets/seek-track.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="vol-knob" file="assets/vol-knob.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="vol-track" file="assets/vol-track.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="prev-up" file="assets/prev-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="prev-over" file="assets/prev-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="prev-down" file="assets/prev-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="play-up" file="assets/play-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="play-over" file="assets/play-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="play-down" file="assets/play-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="pause-up" file="assets/pause-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="pause-over" file="assets/pause-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="pause-down" file="assets/pause-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="next-up" file="assets/next-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="next-over" file="assets/next-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="next-down" file="assets/next-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="menu-up" file="assets/menu-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="menu-over" file="assets/menu-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="menu-down" file="assets/menu-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="sidebar-up" file="assets/sidebar-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="sidebar-over" file="assets/sidebar-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="sidebar-down" file="assets/sidebar-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="folder-up" file="assets/folder-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="folder-over" file="assets/folder-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="folder-down" file="assets/folder-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="minimize-up" file="assets/minimize-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="minimize-over" file="assets/minimize-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="minimize-down" file="assets/minimize-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="maximize-up" file="assets/maximize-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="maximize-over" file="assets/maximize-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="maximize-down" file="assets/maximize-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="fullscreen-up" file="assets/fullscreen-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="fullscreen-over" file="assets/fullscreen-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="fullscreen-down" file="assets/fullscreen-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="close-up" file="assets/close-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="close-over" file="assets/close-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="close-down" file="assets/close-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="audio-up" file="assets/audio-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="audio-over" file="assets/audio-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="audio-down" file="assets/audio-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="subtitles-up" file="assets/subtitles-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="subtitles-over" file="assets/subtitles-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="subtitles-down" file="assets/subtitles-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="settings-up" file="assets/settings-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="settings-over" file="assets/settings-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="settings-down" file="assets/settings-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="playlist-up" file="assets/playlist-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="playlist-over" file="assets/playlist-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="playlist-down" file="assets/playlist-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="mute-up" file="assets/mute-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="mute-over" file="assets/mute-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="mute-down" file="assets/mute-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="unmute-up" file="assets/unmute-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="unmute-over" file="assets/unmute-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="unmute-down" file="assets/unmute-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="home-up" file="assets/home-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="home-over" file="assets/home-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="home-down" file="assets/home-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="video-up" file="assets/video-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="video-over" file="assets/video-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="video-down" file="assets/video-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="library-up" file="assets/library-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="library-over" file="assets/library-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="library-down" file="assets/library-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="stream-up" file="assets/stream-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="stream-over" file="assets/stream-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="stream-down" file="assets/stream-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="lists-up" file="assets/lists-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="lists-over" file="assets/lists-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="lists-down" file="assets/lists-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="recent-up" file="assets/recent-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="recent-over" file="assets/recent-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="recent-down" file="assets/recent-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="add-up" file="assets/add-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="add-over" file="assets/add-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="add-down" file="assets/add-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-up" file="assets/shuffle-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-over" file="assets/shuffle-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-down" file="assets/shuffle-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-on-up" file="assets/shuffle-on-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-on-over" file="assets/shuffle-on-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="shuffle-on-down" file="assets/shuffle-on-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-up" file="assets/repeat-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-over" file="assets/repeat-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-down" file="assets/repeat-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-on-up" file="assets/repeat-on-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-on-over" file="assets/repeat-on-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="repeat-on-down" file="assets/repeat-on-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="load-up" file="assets/load-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="load-over" file="assets/load-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="load-down" file="assets/load-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="save-up" file="assets/save-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="save-over" file="assets/save-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="save-down" file="assets/save-down.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="delete-up" file="assets/delete-up.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="delete-over" file="assets/delete-over.png" alphacolor="#FF00FF"></Bitmap>
+  <Bitmap id="delete-down" file="assets/delete-down.png" alphacolor="#FF00FF"></Bitmap>
+  <PopupMenu id="mainMenu">
+    <MenuItem label="Open file…" action="dialogs.fileSimple()"></MenuItem>
+    <MenuItem label="Open folder…" action="dialogs.directory()"></MenuItem>
+    <MenuItem label="Open disc…" action="dialogs.disc()"></MenuItem>
+    <MenuItem label="Open network stream…" action="dialogs.net()"></MenuItem>
+    <MenuSeparator></MenuSeparator>
+    <MenuItem label="Play" action="vlc.play()"></MenuItem>
+    <MenuItem label="Pause" action="vlc.pause()"></MenuItem>
+    <MenuItem label="Stop" action="vlc.stop()"></MenuItem>
+    <MenuItem label="Previous" action="playlist.previous()"></MenuItem>
+    <MenuItem label="Next" action="playlist.next()"></MenuItem>
+    <MenuSeparator></MenuSeparator>
+    <MenuItem label="Show playlist" action="main.setLayout(library)"></MenuItem>
+    <MenuItem label="Player view" action="main.setLayout(player)"></MenuItem>
+    <MenuItem label="Load playlist…" action="playlist.load()"></MenuItem>
+    <MenuItem label="Save playlist…" action="playlist.save()"></MenuItem>
+    <MenuSeparator></MenuSeparator>
+    <MenuItem label="Media information…" action="dialogs.fileInfo()"></MenuItem>
+    <MenuItem label="Preferences…" action="dialogs.prefs()"></MenuItem>
+    <MenuItem label="VLC context menu" action="dialogs.popup()"></MenuItem>
+    <MenuItem label="Change skin…" action="dialogs.changeSkin()"></MenuItem>
+    <MenuSeparator></MenuSeparator>
+    <MenuItem label="Quit" action="vlc.quit()"></MenuItem>
+  </PopupMenu>
+  <Window id="main" position="Center" dragdrop="true" playondrop="true">
+    <Layout id="library" width="1280" height="720" minwidth="1000" minheight="600" maxwidth="7680" maxheight="4320">
+      <Image id="library.background" image="bg" x="0" y="0" width="1280" height="720" resize="scale" rightbottom="rightbottom"></Image>
+      <Image id="library.field" image="field" x="447" y="40" width="813" height="626" resize="scale" rightbottom="rightbottom"></Image>
+      <Image id="library.idle-art" image="idle-logo" x="757" y="257" width="192" height="192" resize="scale2" art="true" visible="not vlc.hasVout" xkeepratio="true" ykeepratio="true"></Image>
+      <Video id="library.video" x="447" y="40" width="813" height="626" autoresize="false" visible="vlc.hasVout" rightbottom="rightbottom"></Video>
+      <Image id="library.sidebar-bg" image="sidebar-bg" x="50" y="40" width="377" height="626" resize="scale" rightbottom="leftbottom"></Image>
+      <Image id="library.rail-bg" image="rail-bg" x="0" y="40" width="50" height="626" resize="scale" rightbottom="leftbottom"></Image>
+      <Button id="library.nav.home" x="10" y="62" up="home-up" over="home-over" down="home-down" action="main.setLayout(player)" tooltiptext="Player view"></Button>
+      <Button id="library.nav.video" x="10" y="104" up="video-up" over="video-over" down="video-down" action="dialogs.fileSimple()" tooltiptext="Open video or audio"></Button>
+      <Button id="library.nav.library" x="10" y="146" up="library-up" over="library-over" down="library-down" action="dialogs.directory()" tooltiptext="Open a media folder"></Button>
+      <Button id="library.nav.stream" x="10" y="188" up="stream-up" over="stream-over" down="stream-down" action="dialogs.net()" tooltiptext="Open a network stream"></Button>
+      <Button id="library.nav.lists" x="10" y="230" up="lists-up" over="lists-over" down="lists-down" action="playlist.load()" tooltiptext="Load a playlist"></Button>
+      <Button id="library.nav.recent" x="10" y="272" up="recent-up" over="recent-over" down="recent-down" action="dialogs.playlist()" tooltiptext="Open VLC playlist and media library"></Button>
+      <Button id="library.nav.add" x="10" y="592" up="add-up" over="add-over" down="add-down" action="playlist.add()" tooltiptext="Add files to playlist" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Text id="library.playlist-title" text="Playlist" font="ui20" x="70" y="68" width="240" color="#8F8F8F" scrolling="none" focus="false"></Text>
+      <Text id="library.playlist-help" text="Drop files here" font="ui12" x="70" y="108" width="220" color="#8F8F8F" scrolling="none" focus="false"></Text>
+      <Checkbox id="library.shuffle" x="326" y="92" state="playlist.isRandom" up1="shuffle-up" over1="shuffle-over" down1="shuffle-down" up2="shuffle-on-up" over2="shuffle-on-over" down2="shuffle-on-down" action1="playlist.setRandom(true)" action2="playlist.setRandom(false)" tooltiptext1="Enable shuffle" tooltiptext2="Disable shuffle"></Checkbox>
+      <Checkbox id="library.repeat" x="358" y="92" state="playlist.isLoop" up1="repeat-up" over1="repeat-over" down1="repeat-down" up2="repeat-on-up" over2="repeat-on-over" down2="repeat-on-down" action1="playlist.setLoop(true)" action2="playlist.setLoop(false)" tooltiptext1="Repeat playlist" tooltiptext2="Disable repeat"></Checkbox>
+      <Button id="library.add-files" x="70" y="127" up="add-up" over="add-over" down="add-down" action="playlist.add()" tooltiptext="Add files"></Button>
+      <Text id="library.add-label" text="Add files" font="ui14" x="110" y="135" width="190" color="#8F8F8F" scrolling="none" focus="false"></Text>
+      <Button id="library.load" x="326" y="128" up="load-up" over="load-over" down="load-down" action="playlist.load()" tooltiptext="Load playlist"></Button>
+      <Button id="library.save" x="358" y="128" up="save-up" over="save-over" down="save-down" action="playlist.save()" tooltiptext="Save playlist"></Button>
+      <Button id="library.delete" x="390" y="128" up="delete-up" over="delete-over" down="delete-down" action="playlist.del()" tooltiptext="Remove selected items"></Button>
+      <Playtree id="library.live-playlist" x="70" y="165" width="337" height="481" font="ui14" flat="true" fgcolor="#A6A6A6" playcolor="#D37918" selcolor="#2C2A27" bgcolor1="#0E0E0E" bgcolor2="#0E0E0E" rightbottom="leftbottom" help="Double-click an item to play; use the mouse wheel to scroll"></Playtree>
+      <Image id="library.titlebar.0" image="topbar" x="0" y="0" width="1280" height="40" resize="scale" rightbottom="righttop" action="move" action2="main.maximize()" visible="not main.isMaximized"></Image>
+      <Image id="library.titlebar.1" image="topbar" x="0" y="0" width="1280" height="40" resize="scale" rightbottom="righttop" action="move" action2="main.unmaximize()" visible="main.isMaximized"></Image>
+      <Image id="library.brand" image="title-logo" x="13" y="8"></Image>
+      <Button id="library.menu" x="51" y="6" up="menu-up" over="menu-over" down="menu-down" action="mainMenu.show()" tooltiptext="Media and playback menu"></Button>
+      <Checkbox id="library.sidebar" x="89" y="6" state="library.isActive" up1="sidebar-up" over1="sidebar-over" down1="sidebar-down" up2="sidebar-up" over2="sidebar-over" down2="sidebar-down" action1="main.setLayout(library)" action2="main.setLayout(player)" tooltiptext1="Show playlist" tooltiptext2="Hide playlist"></Checkbox>
+      <Button id="library.folder" x="141" y="6" up="folder-up" over="folder-over" down="folder-down" action="dialogs.fileSimple()" tooltiptext="Open media file"></Button>
+      <Text id="library.section" text="Videos" font="ui14" x="173" y="13" width="90" color="#8F8F8F" scrolling="none" focus="false"></Text>
+      <Text id="library.idle-title" text="VLC Media Player" font="ui14" x="310" y="13" width="660" color="#8F8F8F" scrolling="none" focus="false" rightbottom="righttop" alignment="center" visible="vlc.isStopped"></Text>
+      <Text id="library.media-title" text="$N" font="ui14" x="310" y="13" width="660" color="#8F8F8F" scrolling="none" focus="false" rightbottom="righttop" alignment="center" visible="not vlc.isStopped"></Text>
+      <Button id="library.minimize" x="1130" y="8" up="minimize-up" over="minimize-over" down="minimize-down" action="vlc.minimize()" tooltiptext="Minimize" lefttop="righttop" rightbottom="righttop"></Button>
+      <Checkbox id="library.maximize" x="1166" y="8" state="main.isMaximized" up1="maximize-up" over1="maximize-over" down1="maximize-down" up2="maximize-up" over2="maximize-over" down2="maximize-down" action1="main.maximize()" action2="main.unmaximize()" tooltiptext1="Maximize" tooltiptext2="Restore window" lefttop="righttop" rightbottom="righttop"></Checkbox>
+      <Button id="library.fullscreen" x="1202" y="8" up="fullscreen-up" over="fullscreen-over" down="fullscreen-down" action="vlc.fullscreen()" tooltiptext="Toggle fullscreen" lefttop="righttop" rightbottom="righttop"></Button>
+      <Button id="library.close" x="1238" y="8" up="close-up" over="close-over" down="close-down" action="vlc.quit()" tooltiptext="Close VLC" lefttop="righttop" rightbottom="righttop"></Button>
+      <Image id="library.transport-bg" image="bg" x="0" y="666" width="1280" height="54" resize="scale" lefttop="leftbottom" rightbottom="rightbottom" action="move"></Image>
+      <Button id="library.previous" x="20" y="681" up="prev-up" over="prev-over" down="prev-down" action="playlist.previous()" tooltiptext="Previous item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Checkbox id="library.play-pause" x="58" y="679" state="vlc.isPlaying" up1="play-up" over1="play-over" down1="play-down" up2="pause-up" over2="pause-over" down2="pause-down" action1="vlc.play()" action2="vlc.pause()" tooltiptext1="Play" tooltiptext2="Pause" lefttop="leftbottom" rightbottom="leftbottom"></Checkbox>
+      <Button id="library.next" x="120" y="681" up="next-up" over="next-over" down="next-down" action="playlist.next()" tooltiptext="Next item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Text id="library.elapsed" text="$T" font="ui15" x="170" y="687" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="leftbottom" rightbottom="leftbottom"></Text>
+      <Slider id="library.seek" x="254" y="679" width="603" height="15" points="(4,14),(602,14)" value="time" up="seek" thickness="16" tooltiptext="$T / $D" lefttop="leftbottom" rightbottom="rightbottom">
+        <SliderBackground id="library.seek-background" image="seek-track" nbvert="257"></SliderBackground>
+      </Slider>
+      <Text id="library.duration" text="$D" font="ui15" x="860" y="687" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="rightbottom" rightbottom="rightbottom"></Text>
+      <Checkbox id="library.mute" x="956" y="679" state="vlc.isMute" up1="unmute-up" over1="unmute-over" down1="unmute-down" up2="mute-up" over2="mute-over" down2="mute-down" action1="vlc.mute()" action2="vlc.mute()" tooltiptext1="Mute" tooltiptext2="Unmute" lefttop="rightbottom" rightbottom="rightbottom"></Checkbox>
+      <Slider id="library.volume" x="988" y="679" points="(3,14),(85,14)" value="volume" up="vol-knob" tooltiptext="Volume: $V%" thickness="16" lefttop="rightbottom" rightbottom="rightbottom">
+        <SliderBackground id="library.volume-background" image="vol-track" nbvert="101"></SliderBackground>
+      </Slider>
+      <Button id="library.audio" x="1096" y="677" up="audio-up" over="audio-over" down="audio-down" action="dialogs.audioPopup()" tooltiptext="Audio tracks and audio settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="library.subtitles" x="1138" y="677" up="subtitles-up" over="subtitles-over" down="subtitles-down" action="dialogs.videoPopup()" tooltiptext="Subtitles and video settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="library.settings" x="1180" y="677" up="settings-up" over="settings-over" down="settings-down" action="dialogs.prefs()" tooltiptext="Preferences" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="library.playlist" x="1230" y="677" up="playlist-up" over="playlist-over" down="playlist-down" action="main.setLayout(library)" tooltiptext="Show playlist" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Image id="library.resize-east" image="bg" x="1276" y="40" width="4" height="626" resize="scale" action="resizeE" lefttop="righttop" rightbottom="rightbottom"></Image>
+      <Image id="library.resize-south" image="bg" x="0" y="716" width="1280" height="4" resize="scale" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"></Image>
+      <Image id="library.resize-corner" image="bg" x="1268" y="708" width="12" height="12" resize="scale" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"></Image>
+    </Layout>
+    <Layout id="player" width="1280" height="720" minwidth="1000" minheight="600" maxwidth="7680" maxheight="4320">
+      <Image id="player.background" image="bg" x="0" y="0" width="1280" height="720" resize="scale" rightbottom="rightbottom"></Image>
+      <Image id="player.field" image="field" x="10" y="40" width="1260" height="626" resize="scale" rightbottom="rightbottom"></Image>
+      <Image id="player.idle-art" image="idle-logo" x="544" y="257" width="192" height="192" resize="scale2" art="true" visible="not vlc.hasVout" xkeepratio="true" ykeepratio="true"></Image>
+      <Video id="player.video" x="10" y="40" width="1260" height="626" autoresize="false" visible="vlc.hasVout" rightbottom="rightbottom"></Video>
+      <Image id="player.titlebar.0" image="topbar" x="0" y="0" width="1280" height="40" resize="scale" rightbottom="righttop" action="move" action2="main.maximize()" visible="not main.isMaximized"></Image>
+      <Image id="player.titlebar.1" image="topbar" x="0" y="0" width="1280" height="40" resize="scale" rightbottom="righttop" action="move" action2="main.unmaximize()" visible="main.isMaximized"></Image>
+      <Image id="player.brand" image="title-logo" x="13" y="8"></Image>
+      <Button id="player.menu" x="51" y="6" up="menu-up" over="menu-over" down="menu-down" action="mainMenu.show()" tooltiptext="Media and playback menu"></Button>
+      <Checkbox id="player.sidebar" x="89" y="6" state="library.isActive" up1="sidebar-up" over1="sidebar-over" down1="sidebar-down" up2="sidebar-up" over2="sidebar-over" down2="sidebar-down" action1="main.setLayout(library)" action2="main.setLayout(player)" tooltiptext1="Show playlist" tooltiptext2="Hide playlist"></Checkbox>
+      <Button id="player.folder" x="141" y="6" up="folder-up" over="folder-over" down="folder-down" action="dialogs.fileSimple()" tooltiptext="Open media file"></Button>
+      <Text id="player.section" text="Videos" font="ui14" x="173" y="13" width="90" color="#8F8F8F" scrolling="none" focus="false"></Text>
+      <Text id="player.idle-title" text="VLC Media Player" font="ui14" x="310" y="13" width="660" color="#8F8F8F" scrolling="none" focus="false" rightbottom="righttop" alignment="center" visible="vlc.isStopped"></Text>
+      <Text id="player.media-title" text="$N" font="ui14" x="310" y="13" width="660" color="#8F8F8F" scrolling="none" focus="false" rightbottom="righttop" alignment="center" visible="not vlc.isStopped"></Text>
+      <Button id="player.minimize" x="1130" y="8" up="minimize-up" over="minimize-over" down="minimize-down" action="vlc.minimize()" tooltiptext="Minimize" lefttop="righttop" rightbottom="righttop"></Button>
+      <Checkbox id="player.maximize" x="1166" y="8" state="main.isMaximized" up1="maximize-up" over1="maximize-over" down1="maximize-down" up2="maximize-up" over2="maximize-over" down2="maximize-down" action1="main.maximize()" action2="main.unmaximize()" tooltiptext1="Maximize" tooltiptext2="Restore window" lefttop="righttop" rightbottom="righttop"></Checkbox>
+      <Button id="player.fullscreen" x="1202" y="8" up="fullscreen-up" over="fullscreen-over" down="fullscreen-down" action="vlc.fullscreen()" tooltiptext="Toggle fullscreen" lefttop="righttop" rightbottom="righttop"></Button>
+      <Button id="player.close" x="1238" y="8" up="close-up" over="close-over" down="close-down" action="vlc.quit()" tooltiptext="Close VLC" lefttop="righttop" rightbottom="righttop"></Button>
+      <Image id="player.transport-bg" image="bg" x="0" y="666" width="1280" height="54" resize="scale" lefttop="leftbottom" rightbottom="rightbottom" action="move"></Image>
+      <Button id="player.previous" x="20" y="681" up="prev-up" over="prev-over" down="prev-down" action="playlist.previous()" tooltiptext="Previous item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Checkbox id="player.play-pause" x="58" y="679" state="vlc.isPlaying" up1="play-up" over1="play-over" down1="play-down" up2="pause-up" over2="pause-over" down2="pause-down" action1="vlc.play()" action2="vlc.pause()" tooltiptext1="Play" tooltiptext2="Pause" lefttop="leftbottom" rightbottom="leftbottom"></Checkbox>
+      <Button id="player.next" x="120" y="681" up="next-up" over="next-over" down="next-down" action="playlist.next()" tooltiptext="Next item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Text id="player.elapsed" text="$T" font="ui15" x="170" y="687" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="leftbottom" rightbottom="leftbottom"></Text>
+      <Slider id="player.seek" x="254" y="679" width="603" height="15" points="(4,14),(602,14)" value="time" up="seek" thickness="16" tooltiptext="$T / $D" lefttop="leftbottom" rightbottom="rightbottom">
+        <SliderBackground id="player.seek-background" image="seek-track" nbvert="257"></SliderBackground>
+      </Slider>
+      <Text id="player.duration" text="$D" font="ui15" x="860" y="687" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="rightbottom" rightbottom="rightbottom"></Text>
+      <Checkbox id="player.mute" x="956" y="679" state="vlc.isMute" up1="unmute-up" over1="unmute-over" down1="unmute-down" up2="mute-up" over2="mute-over" down2="mute-down" action1="vlc.mute()" action2="vlc.mute()" tooltiptext1="Mute" tooltiptext2="Unmute" lefttop="rightbottom" rightbottom="rightbottom"></Checkbox>
+      <Slider id="player.volume" x="988" y="679" points="(3,14),(85,14)" value="volume" up="vol-knob" tooltiptext="Volume: $V%" thickness="16" lefttop="rightbottom" rightbottom="rightbottom">
+        <SliderBackground id="player.volume-background" image="vol-track" nbvert="101"></SliderBackground>
+      </Slider>
+      <Button id="player.audio" x="1096" y="677" up="audio-up" over="audio-over" down="audio-down" action="dialogs.audioPopup()" tooltiptext="Audio tracks and audio settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="player.subtitles" x="1138" y="677" up="subtitles-up" over="subtitles-over" down="subtitles-down" action="dialogs.videoPopup()" tooltiptext="Subtitles and video settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="player.settings" x="1180" y="677" up="settings-up" over="settings-over" down="settings-down" action="dialogs.prefs()" tooltiptext="Preferences" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="player.playlist" x="1230" y="677" up="playlist-up" over="playlist-over" down="playlist-down" action="main.setLayout(library)" tooltiptext="Show playlist" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Image id="player.resize-east" image="bg" x="1276" y="40" width="4" height="626" resize="scale" action="resizeE" lefttop="righttop" rightbottom="rightbottom"></Image>
+      <Image id="player.resize-south" image="bg" x="0" y="716" width="1280" height="4" resize="scale" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"></Image>
+      <Image id="player.resize-corner" image="bg" x="1268" y="708" width="12" height="12" resize="scale" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"></Image>
+    </Layout>
+  </Window>
+  <Window id="fullscreenController" position="South" ymargin="3%">
+    <Layout id="fullscreen-controls" width="1000" height="64" minwidth="1000" maxwidth="1000" minheight="64" maxheight="64">
+      <Image id="fullscreen.transport-bg" image="bg" x="0" y="0" width="1000" height="64" resize="scale" lefttop="leftbottom" rightbottom="rightbottom" action="move"></Image>
+      <Button id="fullscreen.previous" x="20" y="15" up="prev-up" over="prev-over" down="prev-down" action="playlist.previous()" tooltiptext="Previous item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Checkbox id="fullscreen.play-pause" x="58" y="13" state="vlc.isPlaying" up1="play-up" over1="play-over" down1="play-down" up2="pause-up" over2="pause-over" down2="pause-down" action1="vlc.play()" action2="vlc.pause()" tooltiptext1="Play" tooltiptext2="Pause" lefttop="leftbottom" rightbottom="leftbottom"></Checkbox>
+      <Button id="fullscreen.next" x="120" y="15" up="next-up" over="next-over" down="next-down" action="playlist.next()" tooltiptext="Next item" lefttop="leftbottom" rightbottom="leftbottom"></Button>
+      <Text id="fullscreen.elapsed" text="$T" font="ui15" x="170" y="21" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="leftbottom" rightbottom="leftbottom"></Text>
+      <Slider id="fullscreen.seek" x="254" y="13" width="323" height="15" points="(4,14),(602,14)" value="time" up="seek" thickness="16" tooltiptext="$T / $D" lefttop="leftbottom" rightbottom="rightbottom">
+        <SliderBackground id="fullscreen.seek-background" image="seek-track" nbvert="257"></SliderBackground>
+      </Slider>
+      <Text id="fullscreen.duration" text="$D" font="ui15" x="580" y="21" width="78" color="#8F8F8F" scrolling="none" focus="false" lefttop="rightbottom" rightbottom="rightbottom"></Text>
+      <Checkbox id="fullscreen.mute" x="676" y="13" state="vlc.isMute" up1="unmute-up" over1="unmute-over" down1="unmute-down" up2="mute-up" over2="mute-over" down2="mute-down" action1="vlc.mute()" action2="vlc.mute()" tooltiptext1="Mute" tooltiptext2="Unmute" lefttop="rightbottom" rightbottom="rightbottom"></Checkbox>
+      <Slider id="fullscreen.volume" x="708" y="13" points="(3,14),(85,14)" value="volume" up="vol-knob" tooltiptext="Volume: $V%" thickness="16" lefttop="rightbottom" rightbottom="rightbottom">
+        <SliderBackground id="fullscreen.volume-background" image="vol-track" nbvert="101"></SliderBackground>
+      </Slider>
+      <Button id="fullscreen.audio" x="816" y="11" up="audio-up" over="audio-over" down="audio-down" action="dialogs.audioPopup()" tooltiptext="Audio tracks and audio settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="fullscreen.subtitles" x="858" y="11" up="subtitles-up" over="subtitles-over" down="subtitles-down" action="dialogs.videoPopup()" tooltiptext="Subtitles and video settings" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="fullscreen.settings" x="900" y="11" up="settings-up" over="settings-over" down="settings-down" action="dialogs.prefs()" tooltiptext="Preferences" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+      <Button id="fullscreen.playlist" x="950" y="11" up="playlist-up" over="playlist-over" down="playlist-down" action="vlc.fullscreen();main.setLayout(library)" tooltiptext="Show playlist" lefttop="rightbottom" rightbottom="rightbottom"></Button>
+    </Layout>
+  </Window>
+</Theme>
