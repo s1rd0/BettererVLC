@@ -1,8 +1,8 @@
-# VLC Redesign — Skins2 Theme
+# BettererVLC
 
 A working VLC skin based on [VLC Redesign by Juxtopposed](https://www.figma.com/community/file/1691465999134370980/vlc-redesign). It uses VLC's native Skins2 interface, original exported icons, the Inter font, a real video surface and a real playlist.
 
-**[Download VLC-Redesign.vlt](https://github.com/s1rd0/VLC-Redesign/releases/latest/download/VLC-Redesign.vlt)** · [Releases](https://github.com/s1rd0/VLC-Redesign/releases) · [Bundled build](dist/VLC-Redesign.vlt)
+**[Download VLC-Redesign.vlt](https://github.com/s1rd0/BettererVLC/releases/latest/download/VLC-Redesign.vlt)** · [Releases](https://github.com/s1rd0/BettererVLC/releases) · [Bundled build](dist/VLC-Redesign.vlt)
 
 ![Player layout preview](docs/preview-player.png)
 
@@ -16,7 +16,7 @@ The image above is an offline rendering of the theme XML, not a screenshot of VL
 
 ## Install
 
-1. Download `VLC-Redesign.vlt` from [the latest release](https://github.com/s1rd0/VLC-Redesign/releases/latest).
+1. Download `VLC-Redesign.vlt` from [the latest release](https://github.com/s1rd0/BettererVLC/releases/latest).
 2. Open VLC's **Tools → Preferences → Interface**.
 3. Select **Use custom skin** and choose the downloaded `.vlt` file.
 4. Save and restart VLC.
